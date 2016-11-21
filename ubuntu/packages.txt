@@ -1,0 +1,13 @@
+bibtex2html
+build-essential
+curl
+filezilla
+gedit-plugins
+git
+htop
+r-base
+pdfgrep
+terminator
+texlive-full
+vim
+vlc
