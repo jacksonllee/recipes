@@ -2,6 +2,9 @@
 # Set the default editor in terminal
 export EDITOR=nano
 
+# Set bash history to save all commands
+export HISTSIZE="INFINITE"
+
 # Activate git tab completion for Mac
 if [[ $OSTYPE == darwin* ]] ; then
   if [ ! -e ~/git-completion.bash ] ; then
