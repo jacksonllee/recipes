@@ -1,0 +1,5 @@
+awk
+htop
+jq
+watch
+wget
