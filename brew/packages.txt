@@ -1,5 +1,6 @@
 awk
 htop
 jq
+vim
 watch
 wget
