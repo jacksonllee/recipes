@@ -1,7 +1,11 @@
 recipes
 =======
 
-This repo contains configuration files and other things
-for every machine I use.
+This repo contains configuration files and package installation scripts 
+for every machine I use. Run:
+
+```
+$ sh install.sh
+```
 
 TODO: reminders for ssh etc.

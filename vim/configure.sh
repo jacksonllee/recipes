@@ -1,5 +1,4 @@
-# copy .vimrc to $HOME
-cp ../home/.vimrc ~
+#!/usr/bin/env sh
 
 # download the darcula color scheme
 mkdir -p ~/.vim/colors
