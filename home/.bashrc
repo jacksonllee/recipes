@@ -33,3 +33,10 @@ alias ..="cd .."
 alias df="df -H"
 alias apt-get="sudo apt-get"
 alias ls="ls -lah"
+
+# Functions
+pf ()
+{
+    pytest -v --cov "$1" && flake8 "$1"
+}
+
