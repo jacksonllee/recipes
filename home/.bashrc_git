@@ -37,6 +37,6 @@ alias ls="ls -lah"
 # Functions
 pf ()
 {
-    pytest -vv --cov "$1" && flake8 "$1"
+    pytest -vv --cov --doctest-modules "$1" && flake8 "$1"
 }
 
