@@ -36,6 +36,7 @@ alias a="source activate"
 alias d="source deactivate"
 alias py="python"
 alias ipy="ipython"
+alias jupy="jupyter notebook"
 
 # Functions
 pf ()
