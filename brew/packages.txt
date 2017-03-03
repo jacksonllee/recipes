@@ -1,3 +1,4 @@
+ag
 gawk
 htop
 jq
