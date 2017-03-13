@@ -34,12 +34,16 @@ export TERM=xterm-256color
 alias ..="cd .."
 alias df="df -H"
 alias apt-get="sudo apt-get"
-alias ls="ls -lah"
 alias a="source activate"
 alias d="source deactivate"
 alias py="python"
 alias ipy="ipython"
 alias jupy="jupyter notebook"
+if [[ $OSTYPE == darwin* ]] ; then
+    alias ls="ls -G --color=auto"
+else
+    alias ls="ls --color=auto"
+fi
 
 # Functions
 pf ()
