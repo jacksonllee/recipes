@@ -27,6 +27,9 @@ export PS1="${GREEN}\w${RESET} \$(parse_git_branch)\n\$ "
 # GOPATH
 export GOPATH=$HOME/golang
 
+# TERM
+export TERM=xterm-256color
+
 # Aliases
 alias ..="cd .."
 alias df="df -H"
