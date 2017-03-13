@@ -40,7 +40,7 @@ alias py="python"
 alias ipy="ipython"
 alias jupy="jupyter notebook"
 if [[ $OSTYPE == darwin* ]] ; then
-    alias ls="ls -G --color=auto"
+    alias ls="ls -G"
 else
     alias ls="ls --color=auto"
 fi
