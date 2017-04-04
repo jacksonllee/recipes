@@ -2,6 +2,7 @@ ag
 gawk
 htop
 jq
+md5sha1sum
 vim
 watch
 wget
