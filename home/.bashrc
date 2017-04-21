@@ -48,5 +48,5 @@ fi
 # Functions
 pf ()
 {
-    pytest -vv --cov --doctest-modules "$1" && flake8 "$1"
+    pytest -vv --cov "$1" "$1" && flake8 "$1"
 }
