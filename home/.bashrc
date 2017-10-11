@@ -50,3 +50,9 @@ pf ()
 {
     pytest -vv --cov "$1" "$1" && flake8 "$1"
 }
+
+pya ()
+{
+    source ~/py_envs/$1/bin/activate
+}
+
