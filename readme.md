@@ -30,6 +30,9 @@ Setting up a Mac
 - configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - put dotfiles at $HOME: `cp -a home/. ~ && source ~/.bashrc`
 - generate a new SSH key: [see below]
+- set up Python dev env:
+    * get the latest Python 2.7.x and 3.x: https://www.python.org/downloads/
+    * PyCharm: https://www.jetbrains.com/pycharm/download/
 
 
 
