@@ -31,4 +31,12 @@ Setting up a Mac
 - packages: `cd brew && sh install_packages.sh && cd ..`
 - configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - put dotfiles at $HOME: `cp -a home/. ~ && source ~/.bashrc`
+- generate a new SSH key: [see below]
+
+
+
+Generating a new SSH key
+------------------------
+
+Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 
