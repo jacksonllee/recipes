@@ -30,5 +30,5 @@ Setting up a Mac
 - Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - packages: `cd brew && sh install_packages.sh && cd ..`
 - configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
-- put dotfiles at $HOME: `cp -a home/. ~`
+- put dotfiles at $HOME: `cp -a home/. ~ && source ~/.bashrc`
 
