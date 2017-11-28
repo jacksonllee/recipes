@@ -6,6 +6,7 @@ for every machine I use..
 
 TODO: reminders for ssh etc.
 
+
 Building a Python distribution from Source on Ubuntu
 ----------------------------------------------------
 
@@ -19,5 +20,13 @@ cd Python-x.x.x
 make
 make test
 sudo make install
+```
+
+
+Getting Homebrew on Mac
+-----------------------
+
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
