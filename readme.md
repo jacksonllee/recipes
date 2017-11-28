@@ -23,16 +23,10 @@ sudo make install
 ```
 
 
-Getting iTerm2 on Mac
----------------------
+Setting up a Mac
+----------------
 
-Go to https://www.iterm2.com/
+- iTerm2: https://www.iterm2.com/
+- Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-
-Getting Homebrew on Mac
------------------------
-
-```sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
 
