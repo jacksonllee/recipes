@@ -23,6 +23,12 @@ sudo make install
 ```
 
 
+Getting iTerm2 on Mac
+---------------------
+
+Go to https://www.iterm2.com/
+
+
 Getting Homebrew on Mac
 -----------------------
 
