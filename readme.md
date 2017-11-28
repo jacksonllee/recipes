@@ -1,8 +1,8 @@
 recipes
 =======
 
-This repo contains configuration files and package installation scripts 
-for every machine I use..
+This repo contains set-up notes, configuration files, and package installation scripts 
+for every machine I use.
 
 
 Building a Python distribution from Source on Ubuntu
