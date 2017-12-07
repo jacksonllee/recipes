@@ -37,7 +37,6 @@ alias apt-get="sudo apt-get"
 alias a="source activate"
 alias d="source deactivate"
 alias py="python"
-alias ipy="ipython"
 alias jupy="jupyter notebook"
 alias la="ls -a"
 if [[ $OSTYPE == darwin* ]] ; then
