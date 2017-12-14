@@ -1,5 +1,4 @@
 ag
-caskroom/cask/emacs
 coreutils
 gawk
 htop
