@@ -56,3 +56,6 @@ pya ()
     source ~/py_envs/$1/bin/activate
 }
 
+
+# Activate the "python3" virtualenv
+pya python3
