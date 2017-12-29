@@ -5,6 +5,15 @@ This repo contains set-up notes, configuration files, and package installation s
 for every machine I use.
 
 
+Cutting to the chase
+--------------------
+
+```bash
+git clone https://github.com/jacksonllee/recipes.git
+cd recipes
+```
+
+
 Setting up a Mac
 ----------------
 
