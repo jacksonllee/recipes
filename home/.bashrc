@@ -37,8 +37,7 @@ alias apt-get="sudo apt-get"
 alias a="source activate"
 alias d="source deactivate"
 alias la="ls -a"
-alias ipy2="ipython2"
-alias ipy3="ipython3"
+alias ipy="ipython"
 if [[ $OSTYPE == darwin* ]] ; then
     alias ls="ls -G"
 else
