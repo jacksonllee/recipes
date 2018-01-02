@@ -25,7 +25,7 @@ Setting up a Mac
 - Set up Python dev env:
     * PyCharm: https://www.jetbrains.com/pycharm/download/
     * Get the latest Python 2.7.x and 3.x: https://www.python.org/downloads/
-    * Create "python2" and "python3" virtual environments: `pip install virtualenv && mkdir -p ~/py_env && virtualenv --python=python3 ~/py_envs/python3 &&  virtualenv --python=python2 ~/py_envs/python2`
+    * Create "python2" and "python3" virtual environments: `pip install virtualenv && mkdir -p ~/py_envs && virtualenv --python=python3 ~/py_envs/python3 &&  virtualenv --python=python2 ~/py_envs/python2`
 - Put dotfiles at $HOME: `cp -a home/. ~ && echo "source ~/.bashrc" >> ~/.bash_profile && source ~/.bash_profile`
 
 
@@ -49,6 +49,6 @@ Setting up an Ubuntu machine
         make test
         sudo make install
         ``` 
-    * Create "python2" and "python3" virtual environments: `pip install virtualenv && mkdir -p ~/py_env && virtualenv --python=python3 ~/py_envs/python3 &&  virtualenv --python=python2 ~/py_envs/python2`
+    * Create "python2" and "python3" virtual environments: `pip install virtualenv && mkdir -p ~/py_envs && virtualenv --python=python3 ~/py_envs/python3 &&  virtualenv --python=python2 ~/py_envs/python2`
 
 - Put dotfiles at $HOME: TODO
