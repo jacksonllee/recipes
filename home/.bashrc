@@ -14,11 +14,13 @@ fi
 
 # Stylize the command line prompt
 # - make pwd green
-# - show git branch
+# - show git branch, in yellow
 # - force prompt to be on a new line
+ECHO_YELLOW="$(tput setaf 3)"
+ECHO_RESET="$(tput sgr0)"
 function parse_git_branch {
     ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-    echo "("${ref#refs/heads/}")"
+    echo "("${ECHO_YELLOW}${ref#refs/heads/}${ECHO_RESET}")"
 }
 GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
