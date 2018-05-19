@@ -20,11 +20,11 @@ ECHO_YELLOW="$(tput setaf 3)"
 ECHO_RESET="$(tput sgr0)"
 function parse_git_branch {
     ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-    echo "("${ECHO_YELLOW}${ref#refs/heads/}${ECHO_RESET}")"
+    echo "("${ECHO_YELLOW}${ref#refs/heads/}${ECHO_RESET}") "
 }
 GREEN="\[$(tput setaf 2)\]"
 RESET="\[$(tput sgr0)\]"
-export PS1="${GREEN}\w${RESET} \$(parse_git_branch)\n\$ "
+export PS1="${GREEN}\w${RESET} \$(parse_git_branch)--------------------\n\$ "
 
 # GOPATH
 export GOPATH=$HOME/golang
