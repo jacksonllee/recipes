@@ -9,6 +9,9 @@ __version__ = None  # needed for flake8; updated in the next line
 exec(open(os.path.join(_THIS_DIR, _PACKAGE_NAME, '_version.py')).read())
 assert __version__ is not None
 
+with open(os.path.join(_THIS_DIR, 'README.md')) as f:
+    _LONG_DESCRIPTION = f.read().strip()
+
 
 def main():
     setup(
@@ -16,12 +19,20 @@ def main():
         version=__version__,
         author='Jackson L. Lee',
         packages=find_packages(),
-        description='foo bar description',
-        python_requires='>=3.6',
+        description=_PACKAGE_NAME,
+        long_description=_LONG_DESCRIPTION,
+        license='(specify license)',
 
+        python_requires='>=3.6',
+        zip_safe=False,
+
+        # these are minimal requirements
+        # distinct from the exact version pins in requirements.txt
         install_requires=[],
 
-        zip_safe=False,
+        # list of strs which are the PyPI trove classifiers
+        # see: https://pypi.org/classifiers/
+        classifiers=[],
     )
 
 
