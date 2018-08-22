@@ -52,3 +52,9 @@ Setting up an Ubuntu machine
     * Create a "python3" virtual environments: `pip install virtualenv && mkdir -p ~/py_envs && virtualenv --python=python3 ~/py_envs/python3`
 
 - Put dotfiles at $HOME: TODO
+
+
+Python Cheat Sheets
+-------------------
+
+Please see the directory [`python/`](python).
