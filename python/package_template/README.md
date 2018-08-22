@@ -40,3 +40,9 @@ py.test -vv --cov foobar foobar
 ## Change log
 
 Please see [CHANGELOG.md](CHANGELOG.md).
+
+
+## License
+
+(Specify license here)
+Please see [LICENSE.txt](LICENSE.txt).
