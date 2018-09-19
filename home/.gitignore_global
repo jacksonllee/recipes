@@ -1,23 +1,23 @@
 # Python
-*.pyc
-__pycache__
-*.egg-info
-.cache/*
-.coverage
-.tox/*
-docs/.doctrees/*
-venv/*
-.pytest_cache/*
-.mypy_cache/*
-.ipynb_checkpoints/*
+**/*.pyc
+**/__pycache__
+**/*.egg-info
+**/.cache/*
+**/.coverage
+**/.tox/*
+**/docs/.doctrees/*
+**/venv/*
+**/.pytest_cache/*
+**/.mypy_cache/*
+**/.ipynb_checkpoints/*
 dist/*
 build/*
 
 # Ubuntu
-*~
+**/*~
 
 # PyCharm
 .idea/*
 
 # Mac OS
-.DS_Store
+**/.DS_Store
