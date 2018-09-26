@@ -57,11 +57,5 @@ pfm ()
     pf "$1" && mypy "$1"
 }
 
-pya ()
-{
-    source ~/py_envs/$1/bin/activate
-}
-
-
-# Activate the "python3" virtualenv
-pya python3
+# Activate the "venv" default virtual environment
+source venv/bin/activate
