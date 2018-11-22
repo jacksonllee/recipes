@@ -58,4 +58,4 @@ pfm ()
 }
 
 # Activate the "venv" default virtual environment
-source venv/bin/activate
+source ~/venv/bin/activate
