@@ -1,6 +1,6 @@
 [user]
 	name = jacksonllee 
-	email = <EMAIL-ADDRESS>
+	email = jacksonlunlee@gmail.com
 
 [alias]
 	recent = log -n 10 --oneline --graph
