@@ -17,6 +17,9 @@ cd recipes
 Setting up a Mac
 ----------------
 
+- If a new OS is available, update the OS from App Store.
+- Install / update Xcode from App Store.
+- If Git isn't available (check by running `which git`), install it: https://git-scm.com/
 - Google Chrome: https://www.google.com/chrome/
 - iTerm2: https://www.iterm2.com/
 - Miniconda: https://conda.io/miniconda.html
