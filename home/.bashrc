@@ -57,5 +57,5 @@ pfm ()
     pf "$1" && mypy "$1"
 }
 
-# Activate the "venv" default virtual environment
-source ~/venv/bin/activate
+# Activate the "home" conda env by default
+source activate home

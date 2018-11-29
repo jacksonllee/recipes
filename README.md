@@ -26,7 +26,7 @@ Setting up a Mac
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 - Set up Python dev env:
     * PyCharm: https://www.jetbrains.com/pycharm/download/
-    * TODO conda base env
+    * Create a "home" conda env: `conda create --name home python=3.6`
 - Put dotfiles at $HOME: `cp -a home/. ~ && echo "source ~/.bashrc" >> ~/.bash_profile && source ~/.bash_profile`
 
 
@@ -40,7 +40,7 @@ Setting up an Ubuntu machine
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 - Set up Python dev env:
     * PyCharm: https://www.jetbrains.com/pycharm/download/
-    * TODO conda base env
+    * Create a "home" conda env: `conda create --name home python=3.6`
 
 - Put dotfiles at $HOME: TODO
 
