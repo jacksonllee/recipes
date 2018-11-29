@@ -17,6 +17,7 @@ cd recipes
 Setting up a Mac
 ----------------
 
+- Google Chrome: https://www.google.com/chrome/
 - iTerm2: https://www.iterm2.com/
 - Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install packages: `cd brew && sh install_packages.sh && cd ..`
@@ -32,6 +33,7 @@ Setting up a Mac
 Setting up an Ubuntu machine
 ----------------------------
 
+- Google Chrome: https://www.google.com/chrome/
 - Install packages: `cd ubuntu && sh install_packages.sh && cd ..`
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
