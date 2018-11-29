@@ -58,4 +58,5 @@ pfm ()
 }
 
 # Activate the "home" conda env by default
+export PATH="${HOME}/miniconda3/bin:$PATH"
 source activate home
