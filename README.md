@@ -21,16 +21,18 @@ Setting up a Mac
 - Google Chrome: https://www.google.com/chrome/
 - iTerm2: https://www.iterm2.com/
 - Git: https://git-scm.com/
-- Clone this repo to local.
+    * Once Git is available, clone this repo to local.
 - Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- Install packages: `cd brew && sh install_packages.sh && cd ..`
+    * Once brew is available, install packages: `cd brew && sh install_packages.sh && cd ..`
 - Miniconda: https://conda.io/miniconda.html
+    * Once conda is available, create a "home" env:
+      `conda create --name home python=3.6`
+      (`source ~/.bash_profile` if `conda` command isn't available)
+    * Once the home env is ready, put dotfiles at $HOME:
+      `cp -a home/. ~ && echo "source ~/.bashrc" >> ~/.bash_profile && source ~/.bash_profile`
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-- Set up Python dev env:
-    * PyCharm: https://www.jetbrains.com/pycharm/download/
-    * Create a "home" conda env: `conda create --name home python=3.6` (`source ~/.bash_profile` if `conda` command isn't available)
-- Put dotfiles at $HOME: `cp -a home/. ~ && echo "source ~/.bashrc" >> ~/.bash_profile && source ~/.bash_profile`
+- PyCharm: https://www.jetbrains.com/pycharm/download/
 
 
 Setting up an Ubuntu machine
