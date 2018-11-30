@@ -33,6 +33,7 @@ Setting up a Mac
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 - PyCharm: https://www.jetbrains.com/pycharm/download/
+- Docker: https://www.docker.com/get-started
 
 
 Setting up an Ubuntu machine
