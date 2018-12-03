@@ -1,16 +1,8 @@
-bibtex2html
 build-essential
 curl
 filezilla
 gedit-plugins
-git
 htop
-libsqlite3-dev
-libssl-dev
-r-base
-pdfgrep
 screen
 terminator
-tk-dev
 vim
-vlc
