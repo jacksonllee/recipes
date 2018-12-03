@@ -21,7 +21,11 @@ Setting up a Mac
 - Google Chrome: https://www.google.com/chrome/
 - iTerm2: https://www.iterm2.com/
 - Git: https://git-scm.com/
-    * Once Git is available, clone this repo to local.
+    * Once Git is available, clone this repo to local:
+        ```bash
+        git clone https://github.com/jacksonllee/recipes.git
+        cd recipes
+        ```
 - Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
     * Once brew is available, install packages: `cd brew && sh install_packages.sh && cd ..`
 - Miniconda: https://conda.io/miniconda.html
@@ -40,15 +44,22 @@ Setting up an Ubuntu machine
 ----------------------------
 
 - Google Chrome: https://www.google.com/chrome/
-- Miniconda: https://conda.io/miniconda.html
+- Git: `sudo apt-get install git`
+    * Once Git is available, clone this repo to local:
+        ```bash
+        git clone https://github.com/jacksonllee/recipes.git
+        cd recipes
+        ```
 - Install packages: `cd ubuntu && sh install_packages.sh && cd ..`
+- Miniconda: https://conda.io/miniconda.html
+    * Once conda is available, create a "home" env:
+      `conda create --name home python=3.6`
+      (`source ~/.bash_profile` if `conda` command isn't available)
+    * Once the home env is ready, put dotfiles at $HOME: TODO
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-- Set up Python dev env:
-    * PyCharm: https://www.jetbrains.com/pycharm/download/
-    * Create a "home" conda env: `conda create --name home python=3.6`
-
-- Put dotfiles at $HOME: TODO
+- PyCharm: https://www.jetbrains.com/pycharm/download/
+- Docker: https://www.docker.com/get-started
 
 
 Python Cheat Sheets
