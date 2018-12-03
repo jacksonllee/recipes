@@ -54,7 +54,7 @@ Setting up an Ubuntu machine
 - Miniconda: https://conda.io/miniconda.html
     * Once conda is available, create a "home" env:
       `conda create --name home python=3.6`
-      (`source ~/.bash_profile` if `conda` command isn't available)
+      (`source ~/.bashrc` if `conda` command isn't available)
     * Once the home env is ready, put dotfiles at $HOME: TODO
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
