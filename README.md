@@ -38,6 +38,7 @@ Setting up a Mac
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 - PyCharm: https://www.jetbrains.com/pycharm/download/
 - Docker: https://www.docker.com/get-started
+- LaTeX: Get MacTeX http://www.tug.org/mactex/
 
 
 Setting up an Ubuntu machine
