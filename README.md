@@ -66,4 +66,4 @@ Setting up an Ubuntu machine
 Python Cheat Sheets
 -------------------
 
-Please see the directory [`python/`](python).
+[Check them out](https://github.com/jacksonllee/python-library-template)!
