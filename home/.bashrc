@@ -57,5 +57,10 @@ pfm ()
     pf "$1" && mypy "$1"
 }
 
+fun ()
+{
+    conda activate $1 && cd ~/repos/$1
+}
+
 # Activate the "home" conda env by default
 source activate home
