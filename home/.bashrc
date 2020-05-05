@@ -34,33 +34,13 @@ export TERM=xterm-256color
 
 # Aliases
 alias ..="cd .."
-alias df="df -H"
-alias apt-get="sudo apt-get"
-alias a="source activate"
-alias d="source deactivate"
-alias la="ls -a"
-alias ipy="ipython"
 if [[ $OSTYPE == darwin* ]] ; then
     alias ls="ls -G"
 else
     alias ls="ls --color=auto"
 fi
 
-# Functions
-pf ()
-{
-    pytest -vv --cov "$1" "$1" && flake8 "$1"
-}
-
-pfm ()
-{
-    pf "$1" && mypy "$1"
-}
-
-fun ()
-{
-    conda activate $1 && cd ~/repos/$1
-}
-
 # Activate the "home" conda env by default
 source activate home
+
+clear
