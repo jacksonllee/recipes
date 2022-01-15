@@ -1,5 +1,8 @@
 {
+    "editor.rulers": [88],
     "workbench.colorTheme": "Darcula",
     "editor.minimap.enabled": false,
-    "workbench.tree.indent": 20
+    "workbench.tree.indent": 20,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
 }

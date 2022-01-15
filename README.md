@@ -29,12 +29,13 @@ Setting up a Mac
         ```
 - Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
     * Once brew is available, install packages: `cd brew && sh install_packages.sh && cd ..`
-- Miniconda: https://conda.io/miniconda.html
-    * Once the conda `base` environment is ready, put dotfiles at $HOME:
-      `cp -a home/. ~ && echo "export PATH=/Users/$USER/opt/miniconda3/bin:$PATH && source ~/.bashrc" >> ~/.zshrc && source ~/.zshrc`
+- pyenv and pyenv-virtualenv: https://github.com/pyenv/pyenv
+    * Once both are installed, set the base environment by running `pyenv install 3.9.9 && pyenv global 3.9.9` (or whatever recent Python version I'd like)
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-- PyCharm: https://www.jetbrains.com/pycharm/download/
+- VS Code: https://code.visualstudio.com/
+    * Once VS Code is installed, configure its settings:
+        `cp home/.vscode/settings.json ~/Library/Application\ Support/Code/User`
 - Docker: https://www.docker.com/get-started
 
 
@@ -49,14 +50,12 @@ Setting up an Ubuntu machine
         cd recipes
         ```
 - Install packages: `cd ubuntu && sh install_packages.sh && cd ..`
-- Miniconda: https://conda.io/miniconda.html
-    * Once conda is available, create a "home" env:
-      `conda create --name home python=3.6`
-      (`source ~/.bashrc` if `conda` command isn't available)
-    * Once the home env is ready, put dotfiles at $HOME: TODO
+- pyenv and pyenv-virtualenv: https://github.com/pyenv/pyenv
+    * Once both are installed, set the base environment by running `pyenv install 3.9.9 && pyenv global 3.9.9` (or whatever recent Python version I'd like)
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-- PyCharm: https://www.jetbrains.com/pycharm/download/
+- VS Code: https://code.visualstudio.com/
+    * Once VS Code is installed, configure its settings: TODO command
 - Docker: https://www.docker.com/get-started
 
 
