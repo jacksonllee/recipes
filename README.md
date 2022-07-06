@@ -33,10 +33,7 @@ Setting up a Mac
     * Once both are installed, set the base environment by running `pyenv install 3.9.9 && pyenv global 3.9.9` (or whatever recent Python version I'd like)
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-- VS Code: https://code.visualstudio.com/
-    * Once VS Code is installed, configure its settings:
-        `cp home/.vscode/settings.json ~/Library/Application\ Support/Code/User`
-- Docker: https://www.docker.com/get-started
+- PyCharm, Docker, Git LFS, FileZilla, ELAN
 
 
 Setting up an Ubuntu machine
@@ -54,9 +51,7 @@ Setting up an Ubuntu machine
     * Once both are installed, set the base environment by running `pyenv install 3.9.9 && pyenv global 3.9.9` (or whatever recent Python version I'd like)
 - Configure vim (theme etc.): `cd vim && sh configure.sh && cd ..`
 - Generate a new SSH key: Follow [instructions from GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
-- VS Code: https://code.visualstudio.com/
-    * Once VS Code is installed, configure its settings: TODO command
-- Docker: https://www.docker.com/get-started
+- PyCharm, Docker, Git LFS, FileZilla, ELAN
 
 
 Python Cheat Sheets

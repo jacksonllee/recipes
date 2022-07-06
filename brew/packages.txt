@@ -3,7 +3,6 @@ coreutils
 gawk
 htop
 jq
-md5sha1sum
 p7zip
 vim
 watch
