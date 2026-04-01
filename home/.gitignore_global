@@ -6,7 +6,7 @@
 **/.coverage
 **/.tox/*
 **/docs/.doctrees/*
-**/venv/*
+**/.venv/*
 **/.pytest_cache/*
 **/.mypy_cache/*
 **/.ipynb_checkpoints/*
@@ -20,5 +20,12 @@ build/*
 # PyCharm
 .idea/*
 
+# VS Code
+**/.vscode
+
 # Mac OS
 **/.DS_Store
+
+# Claude
+**/CLAUDE.md
+**/.claude

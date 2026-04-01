@@ -1,9 +1,11 @@
 ag
 coreutils
 gawk
+gh
 htop
 jq
 p7zip
+uv
 vim
 watch
 wget
