@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+# Set up a fresh remote Ubuntu machine for my use.
+# Run from the ubuntu/ directory of this repo.
+
+apt-get update && sudo apt-get install -y build-essential git curl && echo "apt packages installed"
+
+curl -LsSf https://astral.sh/uv/install.sh | sh && echo "uv installed"
+export PATH="$HOME/.local/bin:$PATH"
+
+uv python install 3.14 && uv python pin 3.14 && echo "python 3.14 installed and pinned"
+
+cp ../home/.gitignore_global ../home/.gitconfig ../home/.vimrc ~/ && echo "dotfiles copied"
+
+curl -sS https://starship.rs/install.sh | sh -s -- -y && echo "starship installed"
+echo 'eval "$(starship init bash)"' >> ~/.bashrc && echo "starship added to ~/.bashrc"
+
+ssh-keygen -t ed25519 -C "jacksonlunlee@gmail.com" && echo "ssh key generated — add ~/.ssh/id_ed25519.pub at https://github.com/settings/keys"
