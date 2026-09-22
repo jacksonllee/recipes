@@ -1,6 +1,7 @@
 coreutils
 gawk
 gh
+maccy
 uv
 vim
 watch
