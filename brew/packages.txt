@@ -2,7 +2,7 @@ coreutils
 gawk
 gh
 maccy
-rustup-init
+rustup
 uv
 vim
 watch
